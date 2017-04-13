@@ -1,9 +1,11 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
 import $ from 'jquery'
+import App from './App'
+
+const root = document.getElementById('root')
+ReactDOM.render(<App />,root)
 
 $('.main').click(()=>{
-  console.log('clicked')
-})
-
-$(()=>{
-  alert('test')
+  alert('jquery works')
 })
