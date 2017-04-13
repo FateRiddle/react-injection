@@ -24,7 +24,7 @@ For production
  npm run server
 ```
 
-## Tool used & not used:
+## Tools used & not used:
 * webpack + React
 * ES6 support
 * no linting or testing
