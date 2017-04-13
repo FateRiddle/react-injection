@@ -1,17 +1,30 @@
-最简洁的使用 es6 + npm 的方法。
+# react-injection
 
-需要安装node.js + npm
+This start-kit is for the purpose of injecting a piece of React code into the old multi-page html/js system at ease.
 
-本项目使用yarn，可以在terminal输入npm install -g yarn安装
 
-打开terminal/cmd，进入项目文件夹，输入：
+Download the zip file or
 
-npm i
+```
+ git clone https://github.com/FateRiddle/react-injection.git
+```
 
-然后
+To run the start-kit:
+```
+ npm install
+```
+then
+```
+ npm start
+```
 
-npm build
+For production
+```
+ npm run build
+ npm run server
+```
 
-然后
-
-npm start
+## Tool used & not used:
+* webpack + React
+* ES6 support
+* no linting or testing
