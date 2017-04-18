@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+span {
+  background-color: lightblue;
+  font-size: 2rem;
+}
